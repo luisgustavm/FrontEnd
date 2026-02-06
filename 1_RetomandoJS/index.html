@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO sList JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Lista de Tarefas</h1>
+
+    <!-- Div para entrada de uma tarefa apenas -->
+    <div class="form">
+
+        <input type="text" id="taskInput" placeholder="Digite uma tarefa"/>
+
+        <button id="addTaskBtn">Adicionar</button>
+    </div>
+
+    <!-- Lista de tarefas vai aparecer aqui após serem adicionadas -->
+    <div class="listcss">
+        <ul id="taskList"></ul>
+    </div>
+
+    <!-- Chamando o Js -->
+     <script src="localStore.js"></script>
+</body>
+</html>
