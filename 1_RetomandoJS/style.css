@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
-    background: linear-gradient(135deg, #3b3f45, #434950);
+    background: linear-gradient(135deg, #327ae7, #0d4d97);
     padding: 40px;
     min-height: 100vh;
 }
@@ -12,7 +12,7 @@ body {
 /* Título */
 h1 {
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     color: #ffffff;
     letter-spacing: 1px;
 }
@@ -96,7 +96,6 @@ li {
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
-
 li:hover {
     transform: scale(1.01);
     box-shadow: 0 10px 22px rgba(0,0,0,0.18);
@@ -132,3 +131,6 @@ li button:first-of-type {
     color: #9ca3af;
     opacity: 0.7;
 }
+
+
+
